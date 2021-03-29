@@ -4,7 +4,7 @@ public class March26_LoopsAndPatterns {
 
 	public static void main(String[] args) {
 		
-		printPattern4();
+		printPattern9();
 	}
 	
 	/*
@@ -113,22 +113,149 @@ public class March26_LoopsAndPatterns {
 	 * * * 
 	 * * 
 	 *     
-	     
-	    
-	  * * * * * 
-	  	* * * * 
-	  	  * * * 
-	        * * 
-	          * 
 	   
-	     
-	 1
-	 2 3
-	 4 5 6
-	 7 8 9 10
-	 11 12 13 14   
+	    
 	  
 	 */
+	
+	
+	public static void printPattern5()
+	{
+		for( int i=1; i<=5;i++)
+		{
+			for ( int j=5; j>=i;j--)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	public static void printPattern5_1()
+	{
+		for( int i=5; i>=1;i--)
+		{
+			for ( int j=1; j<=i;j++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+	
+/*
+	
+	* * * * * 
+	  * * * * 
+	    * * * 
+	      * * 
+	        * 
+	  */    
+	
+	
+	
+	public static void printPattern6()
+	{
+		for( int i=1; i<=5;i++)
+		{
+			for (int j=1; j<i;j++)
+			{
+				System.out.print("  ");
+			}
+			
+			for ( int j=5; j>=i;j--)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+	
+ /*
+	
+	* * * * * 
+	 * * * * 
+	  * * * 
+	   * * 
+	    * 
+	*/
+	
+	
+	public static void printPattern7()
+	{
+		for( int i=1; i<=5;i++)
+		{
+			for (int j=1; j<i;j++)
+			{
+				System.out.print(" ");
+			}
+			
+			for ( int j=5; j>=i;j--)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+	
+	/*	
+	
+	    * 
+	   * * 
+	  * * * 
+	 * * * * 
+	* * * * *
+
+	*/
+	
+	public static void printPattern8()
+	{
+		
+	
+		for (int i=1;i<=5;i++)
+		{
+			for ( int j=5;j>i;j--)
+			{
+				System.out.print(" ");
+			}
+			
+			for ( int j=1;j<=i;j++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}		
+	}
+	
+/*
+	
+	1 
+	2 3 
+	4 5 6 
+	7 8 9 10 
+	11 12 13 14 15
+	
+	*/ 
+	
+	
+	
+	public static void printPattern9()
+	{
+		int temp=0;
+		for( int i=1;i<=5;i++)
+		{			
+			for (int j=1; j<=i;j++)
+			{
+				temp++;
+				System.out.print(temp+" ");
+				
+				
+			}
+			System.out.println();
+		}
+		
+	}
 	
 	public static void checkPrimeUsingFor()
 	{
