@@ -1,6 +1,21 @@
 package com.corejava.sample;
 
 public class March30_Methods {
+	
+	
+	///Assignments :
+	
+	
+	/*
+	
+	1) Find Simple interest , print total loan balance
+	2) biggest of 2 numbers
+	3) method to take name and age and retrun String after checking age >=60
+	4) method to take name, service years and isGraduate and then return bonus to the emp as double
+	
+	
+	
+	 */
 
 	public static void main(String[] args) {
 		
